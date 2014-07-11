@@ -31,7 +31,7 @@
 
 
 
-		ArrayList<String> a=Sentimental_analysis.get_sentiment("Sample trial test : You bad ass !! ");
+		ArrayList<String> a=Sentimental_analysis.get_sentiment("Today turned to be a very bad day initially. Later in the evening everything changed its position !! ");
 		System.out.println(a.get(0)); // prints the sentimental result (positive/negative/neutral)
 
 		System.out.println(a.get(1)); // gives the percentage of accuracy of computation
